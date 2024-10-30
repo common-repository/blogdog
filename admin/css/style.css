@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+.clear {
+	clear:both;
+}
+
+.hide {
+	display:none;
+}
+
+.right {
+	float:right;
+}
+
+.sort_icon {
+	float:left;
+	margin: 6px 9px;
+}
+
+.location-footer{
+	padding: 40px 0 10px;
+}
+
+.location-arrow{
+	float:right;
+	margin-top: -35px;
+}
+
+.show .location-arrow {
+	display:none;
+}
+
+.show .sort_icon {
+	display:none;
+}
+
+.green {
+	color:green;
+}
+
+.red {
+	color:red;
+}
+
+.checkmark {
+	font-size:28px;
+}
+
+.required.alert {
+	border-color:red;
+}
+
+.alert_message {
+	color:red;
+	font-size:12px;
+}
+
+#blogdog_admin {
+	max-width:1000px;
+}
+
+.locations-wrap{
+	background-color:#ececec;
+	border:#999 thin solid;
+	border-radius:4px;
+	padding:0 6px ;
+	margin-bottom:2px;
+}
+
+.locations {
+	display:none;
+	background: #fff;
+	border: thin solid #ccc;
+	padding: 20px;
+}
+
+.locations.ajax {
+	display:block;
+}
+
+.locations-wrap.deactivate{
+	background-color:#777;
+}
+
+.locations-wrap.deactivate h3{
+	color:#fff;
+}
+
+.locations-wrap h3 {
+	font-weight:200;
+}
+
+.blogdog-wrap{
+	margin: 0 auto;
+	clear: both;
+}
+
+.wait-to-load{
+	min-height: 300px;
+}
+
+.blogdog_heading {
+	min-width: 240px;
+	float:left;
+	font-size: 18px;
+	min-height: 50px;
+}
+
+.location-open{
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.location-sort{
+	cursor: move;
+}
+
+.delete-section{
+	float: right;
+	color: red;
+	cursor: pointer;
+}
+
+.blogdog_options {
+	float:left;
+	min-height: 50px;
+}
+
+.blogdog_zipcode {
+	float:left;
+	padding-right:20px;
+}
+
+.blogdog_note {
+	font-size:12px;
+	padding:5px 0;
+}
+
+#blogdog_admin .blogdog_h2 {
+	margin-bottom:10px;
+}
+
+
+#blogdog_social_form .dashicons-facebook{
+	color:#fff;
+}
+
+#facebook_button {
+	color:#fff;
+	background:#3b5998;
+}
+
+.admin-one-half{
+	width:44%;
+	float:left;
+	padding:20px;
+}
+
+.admin-one-half video{
+	border:#ccc thin solid;
+}
+/**
+ *	Activate api switch
+ *
+ *
+ *
+ *
+ */
+ 
+#blogdog_activate_api {
+	font-size:24px;
+}
+
+#blogdog_admin .api-active {
+	background-color: rgb(0, 220, 0);
+}
+
+/* The switch - the box around the slider */
+#blogdog_admin .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;;
+}
+
+/* Hide default HTML checkbox */
+#blogdog_admin .switch input {
+	display:none;
+}
+
+/* The slider */
+#blogdog_admin .slider {
+  	position: absolute;
+  	cursor: pointer;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	background-color: #ccc;
+  	-webkit-transition: .4s;
+  	transition: .4s;
+	height: auto;
+}
+
+#blogdog_admin .slider:before {
+  	position: absolute;
+  	content: "";
+  	height: 26px;
+  	width: 26px;
+  	left: 4px;
+  	bottom: 4px;
+  	background-color: white;
+  	-webkit-transition: .4s;
+  	transition: .4s;
+}
+
+#blogdog_admin input:checked + .slider {
+  	background-color: #2196F3;
+}
+
+#blogdog_admin input:focus + .slider {
+  	box-shadow: 0 0 1px #2196F3;
+}
+
+#blogdog_admin input:checked + .slider:before {
+  	-webkit-transform: translateX(26px);
+  	-ms-transform: translateX(26px);
+  	transform: translateX(26px);
+}
+
+/* Rounded sliders */
+#blogdog_admin .slider.round {
+  	border-radius: 34px !important;
+}
+
+#blogdog_admin .slider.round:before {
+  	border-radius: 50%;
+}
+
+#blogdog_admin .community-half{
+	width: 48%;
+	float: left;
+	margin: 0 1% 10px 0;
+	font-size: 16px;
+}
+
+#blogdog_admin .community-half input{
+	width: 100%;
+}
+
+.missing-location-message{
+	padding: 10px 0;
+	font-size: 14px;
+}
